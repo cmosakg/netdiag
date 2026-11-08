@@ -1,8 +1,20 @@
 # NetDiag · 安卓网络故障诊断工具
 
+[![Release](https://img.shields.io/github/v/release/cmosakg/netdiag?label=release)](https://github.com/cmosakg/netdiag/releases/latest)
+[![minSdk](https://img.shields.io/badge/Android-11%2B-3ddc84)](https://github.com/cmosakg/netdiag/releases/latest)
+[![APK size](https://img.shields.io/badge/APK-85%20KB-blue)](https://github.com/cmosakg/netdiag/releases/latest)
+
 一款纯 Java 实现的安卓网络诊断 App，12 个模块覆盖从链路层到应用层的完整排查链路。核心能力是**按 OSI 分层逐级验证，直接指出故障出在哪一层**，而不是丢一堆数字让人自己判断。
 
 零第三方依赖、零 Gradle、零 AndroidX，全部 UI 由代码构建，APK 85 KB。
+
+## 下载安装
+
+从 [Releases](https://github.com/cmosakg/netdiag/releases/latest) 下载 `netdiag-v1.0.0.apk` 后直接安装。
+
+- 要求 Android 11（API 30）及以上
+- 已在 Android 16（HyperOS）与 Android 17（LineageOS）真机验证
+- 首次启动需授予位置权限，这是系统读取 Wi-Fi 信息的强制要求（非本应用自行收集）
 
 ## 功能
 
