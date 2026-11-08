@@ -1,0 +1,15 @@
+# 构建产物
+build/
+*.apk
+*.dex
+*.class
+*.zip
+
+# 签名密钥（含私钥，绝不入库）
+debug.keystore
+*.keystore
+*.jks
+
+# 系统文件
+.DS_Store
+Thumbs.db
